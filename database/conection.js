@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const conection = async () => {
     try {
-        const uri = 'mongodb://localhost:27017/totem_inscripciones_afc';
+        const uri = 'mongodb+srv://jhonsebastiangit:<db_password>@cluster0.ln6kfur.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
         const options = {
             useNewUrlParser: true,
             useUnifiedTopology: true
