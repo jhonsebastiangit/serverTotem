@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const conection = async () => {
     try {
-        const uri = 'mongodb+srv://jhonsebastiangit:<db_password>@cluster0.ln6kfur.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+        const uri = 'mongodb+srv://jhonsebastiangit:<mnQjCPlS4zuXjkCc>@cluster0.ln6kfur.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
         const options = {
             useNewUrlParser: true,
             useUnifiedTopology: true
